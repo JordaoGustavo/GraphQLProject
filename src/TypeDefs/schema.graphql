@@ -1,0 +1,25 @@
+type Conta {
+  id: ID!
+  nome: String!
+  email: String!
+  saldo: Int!
+}
+
+type Empresa {
+  id: ID!
+  razaoSocial: String!
+  funcionarios: [funcionario!]
+}
+
+type Funcionario {
+  id: ID!
+}
+
+type Query {
+  contas: [Conta!]
+  conta(id: ID!): Conta
+}
+
+type Mutation {
+  createConta(nome: String!, email: String!, saldo: Int!): Conta
+}
