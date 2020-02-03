@@ -1,5 +1,5 @@
 {
-  "name": "GraphQLApi",
+  "name": "graphqlapi",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",

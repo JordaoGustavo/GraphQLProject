@@ -1,4 +1,4 @@
-const Conta = require("./Models/Contas");
+const Conta = require("../Models/Contas");
 module.exports = {
   Query: {
     contas: () => Conta.find(),

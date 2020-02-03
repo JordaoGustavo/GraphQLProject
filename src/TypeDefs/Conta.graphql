@@ -1,0 +1,6 @@
+type Conta {
+  id: ID!
+  nome: String!
+  email: String!
+  saldo: Int!
+}

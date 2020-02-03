@@ -1,0 +1,4 @@
+type Query {
+  contas: [Conta!]
+  conta(id: ID!): Conta
+}

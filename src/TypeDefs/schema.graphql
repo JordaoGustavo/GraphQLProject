@@ -5,16 +5,6 @@ type Conta {
   saldo: Int!
 }
 
-type Empresa {
-  id: ID!
-  razaoSocial: String!
-  funcionarios: [funcionario!]
-}
-
-type Funcionario {
-  id: ID!
-}
-
 type Query {
   contas: [Conta!]
   conta(id: ID!): Conta
